@@ -61,6 +61,8 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 02/05/2024 Objetos / Operaciones con Objetos: https://youtu.be/MjuQXt2l6jQ
 - 10/05/2024 Modificando el DOM con JS: https://youtu.be/Wea-wLQuePw
 
+## MODULO 3
+- 14/05/2024 Introducción a git https://youtu.be/4QlEN4S93OM
 
 
 
