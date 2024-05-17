@@ -63,6 +63,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 
 ## MODULO 3
 - 14/05/2024 Introducción a git https://youtu.be/4QlEN4S93OM
-
-
-
+- 16/05/2024 Repaso comandos básicos de git y creación de ramas https://youtu.be/XkipmD_vKTM
