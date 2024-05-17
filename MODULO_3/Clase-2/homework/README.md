@@ -1,6 +1,6 @@
 # Tarea: Colaboración en Repositorio Git
 
-### Pre requisito:
+### Pre-requisitos:
 
 Para poder interactuar con repositorios remotos bien sean nuestros o no, muchas veces Github nos pide autentificarnos por lo que es necesario hacer una autenticacion por token (esto sustituirá la contraseña). Para crear un token de acceso personal en GitHub, sigue estos pasos:
 1. Ve a Configuración (Settings) en tu cuenta de GitHub.
@@ -8,7 +8,14 @@ Para poder interactuar con repositorios remotos bien sean nuestros o no, muchas 
 3. Luego, selecciona Personal access tokens.
 4. Haz clic en Generate new token (classic).
 5. Especifica el nombre del token y selecciona los permisos necesarios, que para nuestro caso sera el checkbox "repo". 
-6. Haz clic en Generate token y copia el token generado, ya que sólo se mostrará una vez.
+6. Haz clic en Generate token y copia el token generado, ya que sólo se mostrará una vez
+
+
+El segundo pre-requisito es que configures tu nombre de usuario y email en git de forma global. Para ello en la terminal de tu PC escribe los siguientes comandos (Recuerda reemplazar tu nombre y tu email)
+```bash
+ git config --global user.name "Tu nombre va acá"
+ git config --global user.email tuemail@example.com
+```
 
 ### Objetivo:
 
@@ -19,7 +26,8 @@ Practicar el manejo básico de Git y la colaboración en un proyecto compartido.
 ```
 git clone URL_REPOSITORIO_GIT
 ```
-
+   **IMPORTANTE** Es posible que al clonar el repositorio git te pida tu usuario y contraseña, recuerda que en este caso el valor de la contraseña debe ser el token personal que creaste en los pre-requisitos
+ 
 2. **Crear una nueva rama:** Una vez que hayas clonado el repositorio, crea una nueva rama llamada utilzando tu nombre nombre-apellido-documento para trabajar en ella.
 ```
 git checkout -b nombre-apellido-112234
