@@ -17,7 +17,7 @@ Practicar el manejo básico de Git y la colaboración en un proyecto compartido.
 1. **Clonar el repositorio:** Vamos a clonar el repositorio colaborativo para todo el grupo:
 
 ```
-git clone https://github.com/ejemplo/repo-ejemplo.git
+git clone URL_REPOSITORIO_GIT
 ```
 
 2. **Crear una nueva rama:** Una vez que hayas clonado el repositorio, crea una nueva rama llamada utilzando tu nombre nombre-apellido-documento para trabajar en ella.
@@ -39,7 +39,7 @@ git commit -m "Agregada nueva funcionalidad"
 6. **Sincronizar la nueva rama con el repositorio remoto:** Finalmente, sincriniza la nueva rama y los cambios realizados con el repositorio remoto.
 
 ```
-git push origin nombre-de-tu-rama
+git push -u origin nombre-de-tu-rama
 ```
 
 7. **Crear un PR (Opcional)** Crea un Pull request (PR) de tu rama para integrarse con la rama principal (main) y comparte el link de tu Pull request con tus compañeros y docente por el chat de whatsapp
