@@ -65,3 +65,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 14/05/2024 Introducción a git https://youtu.be/4QlEN4S93OM
 - 16/05/2024 Repaso comandos básicos de git y creación de ramas https://youtu.be/XkipmD_vKTM
 - 20/05/2024 Repaso git aplicado a la tarea 2 y sintaxis markdown https://youtu.be/dcpUxL1jWIY
+- 22/05/2024 Workshop sobre el proceso de como subir cada tarea https://youtu.be/XNtZ4JU-CKU
