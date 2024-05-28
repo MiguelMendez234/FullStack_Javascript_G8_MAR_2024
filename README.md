@@ -67,3 +67,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 20/05/2024 Repaso git aplicado a la tarea 2 y sintaxis markdown https://youtu.be/dcpUxL1jWIY
 - 22/05/2024 Workshop sobre el proceso de como subir cada tarea https://youtu.be/XNtZ4JU-CKU
 - 24/05/2024 Repaso sobre el proceso de como subir cada tarea y comandos como git reset y revert https://youtu.be/UAjh2giaaFk
+- 27/05/2024 Comparadores y operadores lógicos https://youtu.be/LEcSq3sVoSY
