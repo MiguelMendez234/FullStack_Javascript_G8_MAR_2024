@@ -44,7 +44,7 @@ const edad = 10;
 Resolver los siguientes ejercicios:
 
 - true || true || false && true || false && true && true || false
-- true && (false || false || (true && (true || false && true))) || false && (true || false)
+- true && (false || false && (true && (true || false && true))) || false && (true || false)
 - !(!true && (false || false && !!!true || (true && !false))) || false && true
 
 * Nota: Cada ejercicio se debe resolver paso a paso y dejarlo por escrito hasta dar con el resultado final, tal cual lo vimos en clase.
