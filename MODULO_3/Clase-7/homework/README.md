@@ -1,4 +1,4 @@
-# Tarea: Repaso manipulación de objetos y arrays
+# Tarea 6: Repaso manipulación de objetos y arrays
 
 ### Ejercicio de Bucle For con Arrays:
 
