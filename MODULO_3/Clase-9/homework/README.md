@@ -64,3 +64,27 @@
   // Llamar a la función filtrarPares y pasar el callback mostrarPares
   filtrarPares(numeros, mostrarPares);
   ```
+
+
+- **Callback asíncrono: Simulacion vuelo desde Colombia hasta Corea del Sur**
+
+Hacer un programa que simule un vuelo desde Colombia hasta Corea del Sur respetando el orden de los vuelos:
+
+1. Vuelo Bogota - Madrid: 7000ms (7 horas)
+2. Vuelo Madrid - Frankfurt: 2000ms (2 horas)
+3. Vuelo Frankfurt - Seul: 10000ms (10 horas)
+4. Llegada a Seul
+
+El programa debe imprimir lo siguiente:
+
+```javascript
+  // Estoy en Bogota
+  // Vuelo Bogota - Madrid, me demoré 7 horas
+  // Llegué a Madrid
+  // Vuelo Madrid - Frankfurt, me demoré 2 horas
+  // Llegué a Frankfurt
+  // Vuelo Frankfurt - Seul, me demoré 10 horas
+  // Llegué a Seul
+```
+
+Se puede usar setTimeout para simular el tiempo de los vuelos.
