@@ -71,3 +71,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 29/05/2024 Arrays y objetos https://youtu.be/eO9jWq-tmOE
 - 31/05/2024 ES6 array features y scope en variables https://youtu.be/BWhIJK5vk3s
 - 04/06/2024 Callbacks https://youtu.be/Vz3AlLGq3Ag
+- 04/06/2024 Repaso callbacks https://youtu.be/wezJGnUpnZI
