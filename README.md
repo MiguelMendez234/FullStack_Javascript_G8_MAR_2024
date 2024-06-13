@@ -73,3 +73,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 04/06/2024 Callbacks https://youtu.be/Vz3AlLGq3Ag
 - 04/06/2024 Repaso callbacks https://youtu.be/wezJGnUpnZI
 - 11/06/2024 Promesas con .then y .catch https://youtu.be/jZTg-RBDE_o
+- Asesoria 12/06/2024: https://youtu.be/LQvWrpaz9rA 

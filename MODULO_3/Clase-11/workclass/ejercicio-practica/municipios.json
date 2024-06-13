@@ -1,0 +1,47 @@
+[
+    {
+        "id": 10,
+        "nombre": "Bogotá",
+        "departamentoId": 1
+    },
+    {
+        "id": 11,
+        "nombre": "Fusagasugá",
+        "departamentoId": 1
+    },
+    {
+        "id": 12,
+        "nombre": "Medellín",
+        "departamentoId": 2
+    },
+    {
+        "id": 13,
+        "nombre": "Bello",
+        "departamentoId": 2
+    },
+    {
+        "id": 14,
+        "nombre": "Armenia",
+        "departamentoId": 3
+    },
+    {
+        "id": 15,
+        "nombre": "Calarcá",
+        "departamentoId": 17
+    },
+    {
+        "id": 16,
+        "nombre": "Neiva",
+        "departamentoId": 4
+    },
+    {
+        "id": 17,
+        "nombre": "Pitalito",
+        "departamentoId": 4
+    },
+    {
+        "id": 18,
+        "nombre": "Bucaramanga",
+        "departamentoId": 5
+    }
+]

@@ -4,7 +4,7 @@ Hacer un programa que simule una peticion a un servidor, con delay de 2000 ms, d
 
 Notas: 
 - Usar Promise.all para la segunda peticion fake, es decir la que obtiene las personas, una vez se resuelva la primera (dentro del then).
-- La promesa de obtener personas debe recibir como parametro un usuario
+- La promesa de obtener personas debe recibir como parametro un usuario.
 
 ```javascript
 const isLogged = true;
