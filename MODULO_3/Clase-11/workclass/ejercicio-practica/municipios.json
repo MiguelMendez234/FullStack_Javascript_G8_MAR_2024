@@ -5,18 +5,8 @@
         "departamentoId": 1
     },
     {
-        "id": 11,
-        "nombre": "Fusagasugá",
-        "departamentoId": 1
-    },
-    {
         "id": 12,
         "nombre": "Medellín",
-        "departamentoId": 2
-    },
-    {
-        "id": 13,
-        "nombre": "Bello",
         "departamentoId": 2
     },
     {

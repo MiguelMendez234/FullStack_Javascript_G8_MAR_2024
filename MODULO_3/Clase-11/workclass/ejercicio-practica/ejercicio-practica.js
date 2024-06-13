@@ -15,7 +15,7 @@ function getDepartments(deparments) {
     });
 }
 
-function getMunicipios(departmentId) {
+function getMunicipio(departmentId) {
     return new Promise((resolve) => {
         setTimeout(() => {
             fs.readFile('municipios.json', 'utf-8', (err, data) => {
@@ -25,9 +25,9 @@ function getMunicipios(departmentId) {
                 }
     
                 const municipios = JSON.parse(data);
-                const municipiosByDeparment = municipios.filter(municipio => municipio.departamentoId === departmentId);
+                const municipioByDeparment = municipios.find(municipio => municipio.departamentoId === departmentId);
 
-                resolve(municipiosByDeparment);
+                resolve(municipioByDeparment);
             });
         }, 5000);
     });
@@ -43,7 +43,7 @@ fs.readFile('departamentos.json', 'utf-8', (err, data) => {
 
     getDepartments(departamentos)
         .then(departments => {
-            return Promise.all(departments.map(element => getMunicipios(element.id)));
+            return Promise.all(departments.map(element => getMunicipio(element.id)));
         })
         .then(municipios => console.log('municipios: ', municipios))
         .catch(err => console.log(err));
