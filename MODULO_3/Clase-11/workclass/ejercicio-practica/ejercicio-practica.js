@@ -25,7 +25,7 @@ function getMunicipio(departmentId) {
                 }
     
                 const municipios = JSON.parse(data);
-                const municipioByDeparment = municipios.find(municipio => municipio.departamentoId === departmentId);
+                const municipioByDeparment = municipios.filter(municipio => municipio.departamentoId === departmentId);
 
                 resolve(municipioByDeparment);
             });

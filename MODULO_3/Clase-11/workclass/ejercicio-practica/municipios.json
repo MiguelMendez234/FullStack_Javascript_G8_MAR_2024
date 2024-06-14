@@ -10,8 +10,18 @@
         "departamentoId": 2
     },
     {
+        "id": 13,
+        "nombre": "Bello",
+        "departamentoId": 2
+    },
+    {
         "id": 14,
         "nombre": "Armenia",
+        "departamentoId": 3
+    },
+    {
+        "id": 19,
+        "nombre": "Calarcá",
         "departamentoId": 3
     },
     {
