@@ -75,3 +75,6 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 11/06/2024 Promesas con .then y .catch https://youtu.be/jZTg-RBDE_o
 - Asesoria 12/06/2024: https://youtu.be/vmJoml3pAp8
 - Async await y repaso general https://youtu.be/IinQuQzqaYY
+
+## MODULO 4 
+- 17/06/2024  Introduccion Frontend developer, DOM https://youtu.be/yGIQU0_PiqA -video grupo anterior: https://youtu.be/5po_zFUACm4
