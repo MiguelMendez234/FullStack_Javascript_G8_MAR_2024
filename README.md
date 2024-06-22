@@ -79,3 +79,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 ## MODULO 4 
 - 17/06/2024  Introduccion Frontend developer, DOM https://youtu.be/yGIQU0_PiqA -video grupo anterior: https://youtu.be/5po_zFUACm4
 -19/06/2024 Introduccion a react, primer proyecto https://youtu.be/LgENiHKQlIc
+-21/06/2024 Creacion de componentes https://youtu.be/KU2uFrM8caE
