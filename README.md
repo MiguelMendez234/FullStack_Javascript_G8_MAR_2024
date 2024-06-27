@@ -81,3 +81,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 -19/06/2024 Introduccion a react, primer proyecto https://youtu.be/LgENiHKQlIc
 -21/06/2024 Creacion de componentes https://youtu.be/KU2uFrM8caE
 -24/06/2024 Hooks useEffect, useState https://youtu.be/PlPi90jWZfQ
+-26/06/2024 uso de formularios https://youtu.be/JvaCarcwepI
