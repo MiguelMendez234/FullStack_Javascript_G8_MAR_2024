@@ -82,4 +82,5 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 -21/06/2024 Creacion de componentes https://youtu.be/KU2uFrM8caE
 -24/06/2024 Hooks useEffect, useState https://youtu.be/PlPi90jWZfQ
 -26/06/2024 uso de formularios https://youtu.be/JvaCarcwepI
--28/06/2024 repaso creacion app de react, componentes y apis https://youtu.be/2sxgwX2lnaI
+-28/06/2024 repaso creacion app de react, componentes y apis https://youtu.be/2sxgwX2lnaI | Repaso grupo anteriorhttps://youtu.be/9e1s_5iT6Sw
+-03/06/2024 React router dom https://youtu.be/bt-4iLDkyJA
