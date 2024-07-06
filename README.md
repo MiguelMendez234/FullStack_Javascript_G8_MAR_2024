@@ -84,3 +84,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 -26/06/2024 uso de formularios https://youtu.be/JvaCarcwepI
 -28/06/2024 repaso creacion app de react, componentes y apis https://youtu.be/2sxgwX2lnaI | Repaso grupo anteriorhttps://youtu.be/9e1s_5iT6Sw
 -03/06/2024 React router dom https://youtu.be/bt-4iLDkyJA
+-05/06/2024 React query params https://youtu.be/IAozRJ3ilpQ
