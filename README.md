@@ -86,3 +86,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 -03/06/2024 React router dom https://youtu.be/bt-4iLDkyJA
 -05/06/2024 React query params https://youtu.be/IAozRJ3ilpQ
 -08/06/2024 React Despliegue en netlify, vercel y repaso https://youtu.be/XIX8gfzv3Ck
+-11/06/2024 React useContext y repaso query params https://youtu.be/fe7PLIb5OJA

@@ -12,7 +12,10 @@ function App(){
   const [globalState, setGlobalState] = useState({})
   useEffect(() => {
     setGlobalState({
-      userName: 'mi usuario'
+      userName: 'Daniel test',
+      password: 'fsdfsd',
+      date: '01/09/2023',
+      pokemon: {},
     })
   }, [])
 
