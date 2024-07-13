@@ -78,12 +78,13 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 
 ## MODULO 4 
 - 17/06/2024  Introduccion Frontend developer, DOM https://youtu.be/yGIQU0_PiqA -video grupo anterior: https://youtu.be/5po_zFUACm4
--19/06/2024 Introduccion a react, primer proyecto https://youtu.be/LgENiHKQlIc
--21/06/2024 Creacion de componentes https://youtu.be/KU2uFrM8caE
--24/06/2024 Hooks useEffect, useState https://youtu.be/PlPi90jWZfQ
--26/06/2024 uso de formularios https://youtu.be/JvaCarcwepI
--28/06/2024 repaso creacion app de react, componentes y apis https://youtu.be/2sxgwX2lnaI | Repaso grupo anteriorhttps://youtu.be/9e1s_5iT6Sw
--03/06/2024 React router dom https://youtu.be/bt-4iLDkyJA
--05/06/2024 React query params https://youtu.be/IAozRJ3ilpQ
--08/06/2024 React Despliegue en netlify, vercel y repaso https://youtu.be/XIX8gfzv3Ck
--11/06/2024 React useContext y repaso query params https://youtu.be/fe7PLIb5OJA
+- 19/06/2024 Introduccion a react, primer proyecto https://youtu.be/LgENiHKQlIc
+- 21/06/2024 Creacion de componentes https://youtu.be/KU2uFrM8caE
+- 24/06/2024 Hooks useEffect, useState https://youtu.be/PlPi90jWZfQ
+- 26/06/2024 uso de formularios https://youtu.be/JvaCarcwepI
+- 28/06/2024 repaso creacion app de react, componentes y apis https://youtu.be/2sxgwX2lnaI | Repaso grupo anteriorhttps://youtu.be/9e1s_5iT6Sw
+- 03/06/2024 React router dom https://youtu.be/bt-4iLDkyJA
+- 05/06/2024 React query params https://youtu.be/IAozRJ3ilpQ
+- 08/06/2024 React Despliegue en netlify, vercel y repaso https://youtu.be/XIX8gfzv3Ck
+- 11/06/2024 React useContext y repaso query params https://youtu.be/fe7PLIb5OJA
+- 12/06/2024 React repaso y resolucion de dudas https://youtu.be/tHMwnIfqf4k
