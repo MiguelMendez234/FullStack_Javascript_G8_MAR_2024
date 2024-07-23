@@ -88,3 +88,6 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 08/06/2024 React Despliegue en netlify, vercel y repaso https://youtu.be/XIX8gfzv3Ck
 - 11/06/2024 React useContext y repaso query params https://youtu.be/fe7PLIb5OJA
 - 12/06/2024 React repaso y resolucion de dudas https://youtu.be/tHMwnIfqf4k
+
+## MODULO 5 
+- 22/07/2024 Backend repaso javascript ciclos, objetos, arrays metodos https://youtu.be/ociIDODMl0s 

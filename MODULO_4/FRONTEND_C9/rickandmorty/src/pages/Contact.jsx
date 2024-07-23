@@ -31,8 +31,8 @@ const Contact = () => {
                 <img src={pokemon.sprites.front_default} />
             </>
           )}
-          <button disabled={parseInt(idPokemon) === 1} onClick={() => cambiarPokemon(parseInt(idPokemon) - 1)}>Anterior</button>
-          <button disabled={parseInt(idPokemon) === 1025} onClick={() => cambiarPokemon(parseInt(idPokemon) + 1)}>Siguiente</button>
+          <button disabled={parseInt(idPokemon) === 1} onClick={() => cambiarPokemon(idPokemon - 1)}>Anterior</button>
+          <button disabled={parseInt(idPokemon) === 1025} onClick={() => cambiarPokemon(idPokemon + 1)}>Siguiente</button>
         </>
     )
 }
