@@ -93,3 +93,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 22/07/2024 Backend repaso javascript ciclos, objetos, arrays metodos https://youtu.be/ociIDODMl0s 
 - 24/07/2024 Backend introduccion a node js https://youtu.be/hMj6plaACf0
 - 26/07/2024 Backend Promesas https://youtu.be/x7TBeco-Me8
+- 29/07/2024 Backend Streams, buffers, Manejo de archivos https://youtu.be/KhOo-WSBlNI
