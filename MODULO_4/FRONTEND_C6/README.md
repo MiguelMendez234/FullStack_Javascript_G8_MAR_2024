@@ -34,9 +34,7 @@ El componente Routes reemplaza al componente switch y se utiliza para agrupar va
 ### Link y NavLink: 
 Para la navegación entre páginas, utilizamos los componentes Link y NavLink. Estos componentes nos permiten crear enlaces que redirigen a diferentes rutas dentro de nuestra aplicación.
 
-### Ejemplo de Implementación Antiguo con Routes:
-
-### Ejemplo de Implementación Antiguo con Switch:
+### Ejemplo de Implementación antiguo con Switch:
  ```
   import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Contactanos from "./components/contactanos";
@@ -80,6 +78,8 @@ export default App;
 
  ```
 
+### Ejemplo de Implementación Nuevo con Routes:
+
 ```
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
@@ -122,6 +122,10 @@ const App = () => {
 
 export default App;
 ```
+
+
+
+
 En este ejemplo, creamos un componente de navegación con tres enlaces que redirigen a diferentes rutas dentro de nuestra aplicación. Utilizamos BrowserRouter para envolver nuestra aplicación y definimos las rutas con Route. Con Link, creamos enlaces que permiten al usuario navegar entre las páginas.
 
 Esta es una introducción básica a React Router, pero hay muchas más características y conceptos que se pueden explorar para crear aplicaciones de navegación más complejas y dinámicas.
