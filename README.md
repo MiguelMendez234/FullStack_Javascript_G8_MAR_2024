@@ -95,3 +95,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 26/07/2024 Backend Promesas https://youtu.be/x7TBeco-Me8
 - 29/07/2024 Backend Streams, buffers, Manejo de archivos https://youtu.be/KhOo-WSBlNI
 - 31/07/2024 Backend Creacion de archivos, process.arg y env, ejercicio base de datos archivos json
+- 02/08/2024 Backend Creacion de Servidor HTTP https://youtu.be/3Cci8c83A6Y
