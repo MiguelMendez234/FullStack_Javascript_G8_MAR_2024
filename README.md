@@ -94,7 +94,7 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 24/07/2024 Backend introduccion a node js https://youtu.be/hMj6plaACf0
 - 26/07/2024 Backend Promesas https://youtu.be/x7TBeco-Me8
 - 29/07/2024 Backend Streams, buffers, Manejo de archivos https://youtu.be/KhOo-WSBlNI
-- 31/07/2024 Backend Creacion de archivos, process.arg y env, ejercicio base de datos archivos json
+- 31/07/2024 Backend Creacion de archivos, process.arg y env, ejercicio base de datos archivos json https://youtu.be/ye1XXSbxVj8
 - 02/08/2024 Backend Creacion de Servidor HTTP https://youtu.be/3Cci8c83A6Y
 - 05/08/2024 Backend - Node.js, npm. Express, API con Express - https://youtu.be/l_UjAAvqtcQ
 - 08/08/2024 Backend Express, repaso configuracion, creacion crud - https://youtu.be/unS7MQpIwac
