@@ -98,3 +98,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 02/08/2024 Backend Creacion de Servidor HTTP https://youtu.be/3Cci8c83A6Y
 - 05/08/2024 Backend - Node.js, npm. Express, API con Express - https://youtu.be/l_UjAAvqtcQ
 - 08/08/2024 Backend Express, repaso configuracion, creacion crud - https://youtu.be/unS7MQpIwac
+- 12/08/2024 Backend Repaso creacion Crud, middlewares https://youtu.be/tjrIzbQRQiM
