@@ -100,3 +100,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 08/08/2024 Backend Express, repaso configuracion, creacion crud - https://youtu.be/unS7MQpIwac
 - 12/08/2024 Backend Repaso creacion Crud, middlewares https://youtu.be/tjrIzbQRQiM
 - 14/08/2024 Backend Repaso Creacion de archivos, middlewares y api open ai https://youtu.be/FmCKejaJhYI
+- 16/08/2024 Backend integracion con Open AI

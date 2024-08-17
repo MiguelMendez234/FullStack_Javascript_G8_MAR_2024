@@ -46,6 +46,7 @@ const validate = (req, res, next) => {
     }
 }
 const authMiddleware = (req, res, next) => {
+    // token = req.headers.authorization || req.headers.token
     const user = req.headers.user
     const password = req.headers.password
     if(user !== 'user' || password !== '123'){
@@ -54,7 +55,6 @@ const authMiddleware = (req, res, next) => {
       next()
     }
     console.log({user, password})
-    
 }
 
 app.get('/productos', middleware, (req, res) => {
