@@ -101,3 +101,7 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 12/08/2024 Backend Repaso creacion Crud, middlewares https://youtu.be/tjrIzbQRQiM
 - 14/08/2024 Backend Repaso Creacion de archivos, middlewares y api open ai https://youtu.be/FmCKejaJhYI
 - 16/08/2024 Backend integracion con Open AI
+
+
+## MODULO 6
+- 02/09/2024 Bases de datos - Modelo Entidad Relación https://youtu.be/l5jwtVjJ1ds
