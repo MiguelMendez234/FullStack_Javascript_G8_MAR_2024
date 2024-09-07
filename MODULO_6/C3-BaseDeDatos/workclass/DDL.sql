@@ -1,0 +1,33 @@
+-- CREATE
+
+
+CREATE TABLE tasks (
+	task_id SERIAL PRIMARY KEY,
+	user_ID INT NOT NULL,
+	title VARCHAR(50) NOT NULL,
+	date DATE DEFAULT CURRENT_DATE,
+	task_state BOOLEAN DEFAULT false,
+	FOREIGN KEY (user_ID) REFERENCES users (user_id)	
+);
+
+-- UPDATE
+
+ALTER TABLE tasks
+ADD description VARCHAR;
+
+ALTER TABLE tasks
+ALTER COLUMN description SET DATA TYPE VARCHAR(25);
+
+ALTER TABLE tasks
+RENAME COLUMN date TO created_at;
+
+--DELETE
+
+ALTER TABLE tasks
+DROP description;
+
+
+CREATE TABLE tasks;
+ALTER TABLE tasks ADD code INT UNSIGNED;
+DROP TABLE tasks;
+TRUNCATE TABLE tasks;
