@@ -109,3 +109,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 06/09/2024 Bases de datos - Create Insert Pg Admin https://youtu.be/tN4SQ41HrAc
 - 09/09/2024 Bases de datos - sentencias SELECT https://youtu.be/CxXL8gx2FSA
 - 11/09/2024 Bases de datos - Repaso Y JOIN https://youtu.be/VZbBiavV-5s
+- 13/09/2024 Bases de datos - Repaso Express Y Repasso SELECT https://youtu.be/h-Ox5Ha5Maw
