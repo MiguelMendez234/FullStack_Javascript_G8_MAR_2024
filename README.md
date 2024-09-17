@@ -110,3 +110,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 09/09/2024 Bases de datos - sentencias SELECT https://youtu.be/CxXL8gx2FSA
 - 11/09/2024 Bases de datos - Repaso Y JOIN https://youtu.be/VZbBiavV-5s
 - 13/09/2024 Bases de datos - Repaso Express Y Repasso SELECT https://youtu.be/h-Ox5Ha5Maw
+- 16/09/2024 Bases de datos - ORM - Sequelize https://youtu.be/xXl-PnX_CVw
