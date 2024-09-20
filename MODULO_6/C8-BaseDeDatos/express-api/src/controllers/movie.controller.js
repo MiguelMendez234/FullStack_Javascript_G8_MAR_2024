@@ -1,16 +1,12 @@
-import { connection } from "../db/sequelize.js";
+import { Movie } from "../models/movie.js";
 
 
 export class MovieController {
 
     getMovies = async (req, res) => {
         try {
-          const movies = await connection.query(`
-            SELECT * FROM Movies
-            ORDER BY id ASC;
-          `, {
-            type: connection.QueryTypes.SELECT
-          });
+          const movies = await Movie.findAll();
+        console.log(movies);
           res.status(200).json(movies);
         } catch (error) {
           console.error(error.message);
@@ -22,24 +18,17 @@ export class MovieController {
 
         const id = parseInt(req.params.id);
       
-        const result = await connection.query(`
-          SELECT * FROM Movies
-          WHERE id = :id;
-          `,{
-            replacements: { id },
-            type: connection.QueryTypes.SELECT,
-          }
-      
-        );
-        if (!result[0]) return res.status(404).send({ message: 'Movie not found' });
-        res.json(result[0]);
+        const movie = await Movie.findByPk(id);
+
+        if (!movie) return res.status(404).send({ message: 'Movie not found' });
+        
+        res.json(movie);
       }
 
     create = async (req, res) => {
 
         try {
-          const {title, genre, releaseYear } = req.body;
-          console.log({releaseYear}, typeof releaseYear)
+          const { title, genre, releaseYear } = req.body;
           
           if (!title) {
             return res.status(404).json({ message: "Bad request" });
@@ -51,15 +40,13 @@ export class MovieController {
             return res.status(404).json({ message: "Bad request" });
           }
       
-          const result = await connection.query(`
-            INSERT INTO Movies (title, genre, releaseYear)
-            VALUES (:title, :genre, :releaseYearInt)
-            RETURNING *;
-          `, {
-            replacements: { title, genre, releaseYearInt },
-            type: connection.QueryTypes.INSERT
+          const movie = await Movie.create({
+            title,
+            genre,
+            releaseYear: releaseYearInt,
           });
-          res.status(201).json(result[0]);
+
+          res.status(201).json(movie);
         } catch (err) {
           console.log(err.message);
           return res.status(500).json({ message: 'Internal Server Error'});
@@ -72,24 +59,23 @@ export class MovieController {
         
         try {
           const id = parseInt(req.params.id);
-          const [ movies, number] = await connection.query(`
-            UPDATE Movies
-            SET title = :title,
-                genre = :genre,
-                releaseYear = :releaseYear
-            WHERE id = :id
-            RETURNING * ;
-            `, {
-              replacements: {id, title, genre, releaseYear },
-              type: connection.QueryTypes.UPDATE,
-            });
-           console.log(movies, number); 
+          
+          const movie = await Movie.findOne({
+            where: { id },
+          })
       
-          if (movies?.length <= 0 ) return res
+          if (! movie ) return res
           .status(404)
           .send({ message: `Movie with id: ${id} not found`});
-      
-          return res.json(movies[0]);
+          
+          movie.set({
+            title,
+            genre,
+            releaseYear
+          })
+
+          await movie.save();
+          return res.json(movie);
         } catch (error) {
           console.error(error.message);
           res.status(500).json({ message: 'Interal Server Error'})
@@ -100,18 +86,11 @@ export class MovieController {
  
         try {
           const id = parseInt(req.params.id);
-          const result = await connection.query(`
-            DELETE FROM movies 
-            WHERE id = :id
-            RETURNING * ;
-          `,{
-            replacements: { id },
-            type: connection.QueryTypes.DELETE,
-          })
+          const result = await Movie.destroy({ where: {id: id} });
+            console.log(result);
+          if (!result || result <= 0) return res.status(404).send("Movie not found");
       
-          if (result.length <= 0) return res.status(404).send("Movie not found");
-      
-          res.json(result)
+          res.json({ id: id })
         } catch (error) {
           console.error(error.message);
           res.status(500).json({ message: 'Interal Server Error'})
