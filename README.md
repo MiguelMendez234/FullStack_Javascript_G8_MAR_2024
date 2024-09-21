@@ -112,3 +112,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 13/09/2024 Bases de datos - Repaso Express Y Repasso SELECT https://youtu.be/h-Ox5Ha5Maw
 - 16/09/2024 Bases de datos - ORM - Sequelize https://youtu.be/xXl-PnX_CVw
 - 19/09/2024 Bases de datos - ORM - Models - Refactorizacion https://youtu.be/_42xkFNPtkc
+- 20/09/2024 Bases de datos - ORM - Relaciones https://youtu.be/BI_gsQOrG_o
