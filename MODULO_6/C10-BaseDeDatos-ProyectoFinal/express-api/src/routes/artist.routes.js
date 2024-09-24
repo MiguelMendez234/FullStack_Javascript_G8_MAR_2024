@@ -1,19 +1,14 @@
 import { Router } from 'express';
-import { ArtistController } from '../controllers/index.js';
-
+import { ArtistMongoController } from "../controller_mongo/artist.mongo.controller.js"
 
 
 const router = Router();
-const controller =  new ArtistController();
+const controller =  new ArtistMongoController();
 
 
 router.get("/artist", controller.getAllArtist);
 
 router.get("/artist/:id", controller.getArtisyById );
-
-router.get("/artist/:id/song", controller.getSongsByArtist)
-
-
 
 router.post("/artist", controller.createArtist );
 

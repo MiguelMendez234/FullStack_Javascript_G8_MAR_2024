@@ -113,3 +113,4 @@ Recuerda, cada vez que quieras actualizar tu codigo local con los ultimos cambio
 - 16/09/2024 Bases de datos - ORM - Sequelize https://youtu.be/xXl-PnX_CVw
 - 19/09/2024 Bases de datos - ORM - Models - Refactorizacion https://youtu.be/_42xkFNPtkc
 - 20/09/2024 Bases de datos - ORM - Relaciones https://youtu.be/BI_gsQOrG_o
+- 23/09/2024 Bases de datos - ODM - Mongo DB https://youtu.be/qmLWg_2oVAc
